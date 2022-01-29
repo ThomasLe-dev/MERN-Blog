@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   font-family: 'Roboto', sans-serif;
+  background-color: rgba(0, 132, 255, 0.842);
 }
 
 .topLeft, .topRight{
@@ -22,7 +23,7 @@
 .topIcon{
     font-size: 20px;
     margin: 10px;
-    color: rgb(92, 91, 91);
+    color: rgb(58, 57, 57);
     cursor: pointer;
 }
 
