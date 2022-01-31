@@ -1,0 +1,66 @@
+#file-input{
+  display: none;
+}
+
+.write{
+  padding-top: 50px;
+}
+
+.write-img{
+  margin-left: 10%;
+  width: 60%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.write-form{
+  position: relative;
+}
+
+.write-form-group{
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.write-icon{
+  font-size: 24px;
+  color: rgb(58, 54, 54);
+  cursor: pointer;
+  margin: 0 25px;
+}
+
+.write-input{
+  font-size: 30px;
+  padding: 20px;
+  border: none;
+  width: 70vw;
+}
+
+.write-input:focus{
+    outline: none;
+}
+
+.write-text{
+  font-size: 25px;
+  height: 70vh;
+}
+
+.write-submit{
+  position: absolute;
+  top: 5%;
+  right: 6%;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: red;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+}
+
+.write-submit:hover{
+  background-color: green;
+  color: #fff;
+  cursor: pointer;
+}
