@@ -1,0 +1,79 @@
+.register{
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(45deg, rgba(0, 0, 255, 0.849),rgba(255, 0, 234, 0.849));
+  align-items: center;
+}
+
+.register-title{
+  font-size: 50px;
+  color: #fff;
+}
+
+.register-form{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  background-color: rgba(255, 255, 255, 0.151);
+  border-radius: 20px;
+  padding: 10px;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.register-form > label{
+  margin: 10px 0;
+  font-size: 20px;
+  color: #fff;
+}
+
+.register-form > input{
+  padding: 10px;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+.register-button{
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: darkcyan;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+  padding: 4px 0;
+  color: #fff;
+}
+
+.login-btn{
+  position: absolute;
+  background-color: coral;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+  border: none;
+  width: 10%;
+  font-size: 20px;
+  padding: 4px 0;
+  top: 70px;
+  right: 30px;
+}
+/*
+margin-top: 20px;
+cursor: pointer;
+background-color: darkcyan;
+border: none;
+cursor: pointer;
+border-radius: 20px;
+border: none;
+width: 100%;
+font-size: 20px;
+padding: 4px 0;
+color: #fff;
+*/
