@@ -3,7 +3,7 @@ import "./post.css"
 export default function Post() {
     return (
         <div className="post">
-            <img src="./images/earth.jpg" alt="" className="post-img" />
+            <img src="../images/earth.jpg" alt="" className="post-img" />
 
             <div className="post-info">
                 <div className="post-cats">
